@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header_container">
+            <div class="header_top">
+                <a href="#" class="logo"><img src="./img/_1426231435248.png" alt="logo"></a>
+                <h1 class="title">Помощь в организации похорон, <span class="red">кремации и отправки груза 200</span></h1>
+                <div class="registration_buttons">
+                    <a href="#" class="buttons_user"><img src="./img/carbon_user-avatar-filled-alt.png" alt=""></a>
+                    <a href="#" class="btn login_btn">Вход</a>
+                    <div class="modal login_modal hidden">
+                        <a href="#" class="close_modal">&times;</a>
+                        <h2 class="modal_title">Вход в личный кабинет</h2>
+                        <div class="modal_block">
+                        <form action="#">
+                            <label for="cool" class="hidden"></label><select name="" id="cool">
+                                <option value="">Вид деятельности</option>
+                            </select>
+                            <input placeholder="+7 (7__) ___-__-__" class="modal_input" id="number" name="number" type="tel" pattern="\d{12}" maxlength="12">
+                            <label for="password"></label><input placeholder="Пароль" class="modal_input" id="password" name="password" type="password">
+                        </form>
+                            <div class="btns">
+                                <a href="#" class="modal_btn">Войти</a>
+                                <a href="#" class="forgot_link">Забыли пароль?</a>
+                                <a href="#" class="toggle_link">Регистрация</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn register_btn">Регистрация</a>
+                    <div class="modal register_modal hidden">
+                        <a href="#" class="close_modal">&times;</a>
+                        <h2 class="modal_title">Регистрация</h2>
+                        <h3 class="modal_subtitle">Вам прейдет пароль в смс</h3>
+                        <form action="#">
+                            <input placeholder="+7 (7__) ___-__-__" class="modal_input" id="numbert" name="number" type="tel" pattern="\d{12}" maxlength="12">
+                        </form>
+                        <p class="modal_text"></p>
+                        <a href="#" class="modal_btn">Отправить</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header_bottom">
+                <nav class="header_bottom__line">
+                    <a href="#" class="nav_link">О компаний</a>
+                    <a href="#" class="nav_link">Ритуальные товары</a>
+                    <a href="#" class="nav_link">Ритуальные услуги</a>
+                    <a href="#" class="nav_link">Информация</a>
+                    <a href="#" class="nav_link">Груз 200</a>
+                    <a href="#" class="nav_link">Онлайн-каталог</a>
+                    <a href="#" class="nav_link">Контакты</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="overlay hidden"></div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
